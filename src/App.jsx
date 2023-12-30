@@ -6,7 +6,7 @@ import av from "./assets/images/image-avatar.webp";
 function App() {
   return (
     <div className="w-screen justify-center items-center h-screen absolute top-0 left-0 flex">
-      <div className="w-[300px] h-1/2 flex flex-col justify-between p-4 bg-white border-black border-2 rounded-lg shadow-[5px_5px_0px_0px_rgba(0,0,7)]">
+      <div className="w-[300px] h-auto flex flex-col justify-between p-4 bg-white border-black border-2 rounded-lg shadow-[5px_5px_0px_0px_rgba(0,0,7)]">
         <img className=" w-full rounded-lg object-cover" src={image} alt="" />
         <div>
           <div className="text-black mt-5 projectYellowBody  text-left max-w-min px-2 text-sm font-bold rounded py-1">
