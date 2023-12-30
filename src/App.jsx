@@ -27,7 +27,7 @@ function App() {
           content, and presentation.
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center py-2">
           <img className=" size-5" src={av} alt="" />
           <div className="text-black text-left text-xs font-bold ml-2">
             Greg Hooper
